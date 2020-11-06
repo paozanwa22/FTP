@@ -2,5 +2,28 @@ ftp-simple : config-FTP connection setting
 ftp-simple : Remote directory open to workspace
 ftp-simple : close all FTP connection
 
+
+//how to use
 ftp-simple : Diff-Local file and FTP server file
 ftp-simple : Save-Upload to FTP server
+
+
+    "name": "fpb",
+		"host": "ftpupload.net",
+		"port": 21,
+		"type": "ftp",
+		"username": "epiz_26543819",
+		"password": "yngAaUgtJW46v",
+		"path": "/",
+		"autosave": true,
+		"confirm": true
+    
+    "name": "",
+		"host": "",
+		"port": 21,
+		"type": "ftp",
+		"username": "",
+		"password": "",
+		"path": "/",
+		"autosave": true,
+		"confirm": true
