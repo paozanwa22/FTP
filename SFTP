@@ -1,0 +1,47 @@
+
+https://www.codepolitan.com/tips-upload-project-lewat-sftp-langsung-dari-dalam-visual-studio-code
+//Mengakses server with SFTP
+
+Ctrl+Shift+P
+SFTP:Config
+
+//default
+{
+    "name": "My Server",
+    "host": "localhost",
+    "protocol": "sftp",
+    "port": 22,
+    "username": "username",
+    "remotePath": "/",
+    "uploadOnSave": true
+}
+
+//
+{
+    "protocol": "sftp",
+    "host": "IP SFTP",
+    "port": 22,
+    "username": "usernya",
+    "password": "passwordnya",
+    "remotePath": "path foldernya",
+    "uploadOnSave": true
+}
+
+// my sftp
+{
+    "name": "hpbekas",
+    "host": "sql201.epizy.com",
+    "protocol": "sftp",
+    "port": 22,
+    "username": "epiz_27087418",
+    "password": "xvvmPzk4GRxsv2",
+    "remotePath": "/",
+    "uploadOnSave": true
+}
+
+SFTP: Sync Local -> Remote
+
+
+
+
+
